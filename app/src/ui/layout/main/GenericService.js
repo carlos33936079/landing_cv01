@@ -6,9 +6,9 @@ function GenericService({service}) {
 
     return (
         <div className='service_secondSeccion_info'>
-            <p><FontAwesomeIcon icon={service.icon}/></p> 
-            <p>{service.name}</p>
-            <p>{service.description}</p>
+            <p className='service_secondSeccion_info_icon'><FontAwesomeIcon icon={service.icon}/></p> 
+            <p className='service_secondSeccion_info_name'>{service.name}</p>
+            <p className='service_secondSeccion_info_description'>{service.description}</p>
         </div>
     )
 }

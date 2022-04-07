@@ -1,6 +1,45 @@
 
-import { faMobileScreenButton, faCode, faHouseChimney, faUser, faHouseLaptop, faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import { faMobileScreenButton, faPalette, faWrench, faCubes, faPaintbrush, faCode, faHouseChimney, faUser, faHouseLaptop, faAddressBook } from '@fortawesome/free-solid-svg-icons'
 
+
+export const serviceData = [
+    {
+        id: 1,
+        icon: faCubes,
+        name: 'WEB DESIGN',
+        description: 'I am in charge of the visual identity, coherence and graphic consistency of the website.'
+    },
+    {
+        id: 2,
+        icon: faCode,
+        name: 'WEB DEVELOPMENT',
+        description: 'Turn your design into a website.'
+    },
+    {   
+        id: 3,
+        icon: faMobileScreenButton,
+        name: 'RESPONSIVE DESIGN',
+        description: 'Always prioritizing communication and a responsive user interface.'
+    },
+    {
+        id: 4,
+        icon: faPaintbrush,
+        name: 'GRAFIC DESIGN',
+        description: 'A personalized design always taking care of aesthetics.'
+    },
+    {
+        id: 5,
+        icon: faPalette,
+        name: 'UNLIMITED COLOR',
+        description: 'I can create your website with any color you want.'
+    },
+    {
+        id: 6,
+        icon: faWrench,
+        name: 'CUSTOMER SUPPORT',
+        description: 'I am always ready to help you.'
+    },
+]
 
 export const links = [
     {
@@ -24,7 +63,7 @@ export const links = [
     {
         id: 4,
         name: 'CONTACT',
-        path: '#contact_container',
+        path: 'https://api.whatsapp.com/send?phone=541127975106',
         icon: faAddressBook
     }
 ]
@@ -122,23 +161,3 @@ export const skills = [
     },
 ]
 
-export const serviceData = [
-    {
-        id: 1,
-        icon: faCode,
-        name: 'WEB DESIGN',
-        description: 'I am in charge of the visual identity, coherence and graphic consistency of the website.'
-    },
-    {
-        id: 2,
-        icon: faCode,
-        name: 'WEB DEVELOPMENT',
-        description: 'Turn your design into a website.'
-    },
-    {   
-        id: 3,
-        icon: faMobileScreenButton,
-        name: 'RESPONSIVE DESIGN',
-        description: 'Always prioritizing communication and a responsive user interface.'
-    }
-]

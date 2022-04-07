@@ -27,6 +27,9 @@ function NavBarContainer() {
         <p className='navBar_name_p'>CARLOS LUNA</p>
       </div>
       {responsive ? <NavBarLinksResponsive links={links} FontAwesomeIcon={FontAwesomeIcon}/> : <NavBarLink links={links} FontAwesomeIcon={FontAwesomeIcon}/>}
+      <div>
+      {scroll ? <a className='navBar_whatsapp' href="https://api.whatsapp.com/send?phone=541127975106" target="_blank" rel='noopener'><img src="./images/icon/Whatsapp_icon-icons.com_66931.ico" alt="telefono" /></a>: null}
+      </div>
     </div>
 
 

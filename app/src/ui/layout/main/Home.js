@@ -21,11 +21,17 @@ function Home() {
               </ul>
             </div>
             <div className='home_description_description'>
-              I am a Designer and Front End Developer, I specialize in developing effective and attractive user interfaces for the website..</div>
-            <div className='home_description_redes'>logos</div>
+              I am a Designer and Front End Developer, I specialize in developing effective and attractive user interfaces for the website.</div>
+            <div className='home_description_redes'>
+              <a href="https://www.linkedin.com/in/carloslunadv/" target="_blank" ><img src="./images/icon/linkedin_socialnetwork_17441.ico" alt="LINKEDIN" /></a>
+              <a href="https://api.whatsapp.com/send?phone=541127975106" target="_blank" rel='noopener'><img src="./images/icon/Whatsapp_37229.ico" alt="telefono" /></a>
+              <a href="tel:+541127975106" target="_blank" rel='noopener'><img src="./images/icon/19_104865.ico" alt="telefono" /></a>
+              <a href="mailto:carlosluna0788@gmail.com" rel='noopener'><img src="./images/icon/Mail_icon-icons.com_52015.ico" alt="telefono" /></a>
+              
+            </div>
             <div className='home_description_button'> 
               <button className='home_description_button_1'><a href="#about_container"><FontAwesomeIcon icon={faUser}/> ABOUT ME</a></button>
-              <button className='home_description_button_2'><a href="#portfolio_container"><FontAwesomeIcon icon={faHouseLaptop}/> MY PORFOLIO</a></button>
+              <button className='home_description_button_2'><a href="#service_container"><FontAwesomeIcon icon={faHouseLaptop}/> MY SERVICE</a></button>
             </div>
           </div>
         </div>
